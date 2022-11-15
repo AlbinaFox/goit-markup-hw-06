@@ -1028,13 +1028,21 @@ textarea::placeholder {
 
 .check-form:checked+.icon-check {
     background-color: var(--navigation-color);
-    background-image: url(../image4/check.svg/icon-blue);
+    background-image: url(../image4/Vector-3.svg);
     background-origin: border-box;
     /* background-size: contain; */
     background-repeat: no-repeat;
     background-position: center;
     border-color: var(--navigation-color);
 }
+.check-form_checkbox{
+    -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+    position: absolute;
+}
+
+
 
 
 .button-submit {
