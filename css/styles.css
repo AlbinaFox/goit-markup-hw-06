@@ -1028,7 +1028,7 @@ textarea::placeholder {
 
 .check-form:checked+.icon-check {
     background-color: var(--navigation-color);
-    background-image: url(../image4/check.svg#icon-done);
+    background-image: url(../image4/check.svg/icon-blue);
     background-origin: border-box;
     /* background-size: contain; */
     background-repeat: no-repeat;
@@ -1064,4 +1064,21 @@ textarea::placeholder {
 .button-submit:hover,
 .button-submit:focus {
     background-color: var(--hover-navigation-color);
+}
+
+.checkbox-icon .uncheck {
+    opacity: 1;
+}
+
+.checkbox:checked+.checkbox-icon .uncheck {
+    opacity: 0;
+}
+
+.checkbox-icon .check {
+    opacity: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox:checked+.checkbox-icon .check {
+    opacity: 1;
 }
