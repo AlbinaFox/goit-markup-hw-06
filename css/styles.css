@@ -1028,7 +1028,7 @@ textarea::placeholder {
 
 .check-form:checked+.icon-check {
     background-color: var(--navigation-color);
-    background-image: url(../image4/check1.svg/icon-done);
+    background-image: url(../image4/icomoon/Vector\ \(7\).svg);
     background-origin: border-box;
     /* background-size: contain; */
     background-repeat: no-repeat;
